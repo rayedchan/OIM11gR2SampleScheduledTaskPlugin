@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+    <task>
+        <name>Create New User</name>
+        <class>oim.scheduledtasks.CreateNewUser</class>
+        <description>Create a new OIM User</description>
+        <retry>5</retry>
+        <parameters>
+            <string-param required="true" encrypted="false" helpText="First Name">First Name</string-param>
+            <string-param required="true" encrypted="false" helpText="Last Name">Last Name</string-param>
+            <string-param required="true" encrypted="false" helpText="User Login">User Login</string-param>
+        </parameters>
+    </task>
+</scheduledTasks>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oimplugins xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<plugins pluginpoint="oracle.iam.scheduler.vo.TaskSupport">
+<plugin pluginclass= "oim.scheduledtasks.CreateNewUser"
+version="1.0.1" name="CreateNewUser">
+</plugin>
+</plugins>
+</oimplugins>
